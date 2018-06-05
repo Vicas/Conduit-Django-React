@@ -1,0 +1,22 @@
+branch-defaults:
+  master:
+    environment: conduit-django-dev
+    group_suffix: null
+environment-defaults:
+  conduit-django-dev:
+    branch: master
+    repository: conduit-django
+global:
+  application_name: conduit-django
+  branch: master
+  default_ec2_keyname: aws-eb
+  default_platform: Python 3.4
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: conduit-django
+  sc: git
+  workspace_type: Application
